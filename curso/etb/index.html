@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Entrenamiento Terapia Breve</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #6C63FF;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        main {
+            flex: 1;
+            padding: 2rem;
+            background-color: #f9f9f9;
+        }
+
+        .course-section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .course-section h2 {
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .course-section p {
+            color: #555;
+        }
+
+        .video-container {
+            margin-top: 1rem;
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        footer a {
+            color: #6C63FF;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Welcome to the Course
+    </header>
+
+    <main>
+        <div class="course-section">
+            <h2>Introduction</h2>
+            <p>Welcome to this course! Here, you will learn all the essentials to get started.</p>
+        </div>
+
+        <div class="course-section">
+            <h2>Video Lecture</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="course-section">
+            <h2>Conclusion</h2>
+            <p>We hope you enjoyed this lesson and learned something valuable today. Stay tuned for more content!</p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 Course Inc. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+    </footer>
+</body>
+</html>
